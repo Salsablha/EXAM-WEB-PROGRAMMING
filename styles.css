@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d2cdff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #8f82ec;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.profile {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 50%;
+    height: 75%;
+}
+
+.post-section {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #cecccc;
+}
+
+button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+.posts {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+.comment-section {
+    margin-top: 10px;
+}
+
+.comment {
+    margin-top: 5px;
+    padding: 5px;
+    border-top: 1px solid #eee;
+}

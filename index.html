@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ABC Social</h1>
+        </header>
+        <section class="profile">
+            <img src="salsa.jpg" alt="User Profile Picture" class="profile-pic">
+            <h2>Salsabila</h2>
+            <p>Bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </section>
+        <section class="post-section">
+            <h3>Create a Post</h3>
+            <textarea id="post-content" placeholder="What's on your mind?"></textarea>
+            <button onclick="createPost()">Post</button>
+        </section>
+        <section id="posts">
+            <h3>Posts</h3>
+            <!-- Posts will be dynamically added here -->
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
